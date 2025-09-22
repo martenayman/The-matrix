@@ -11,10 +11,20 @@ const SearchGoogle = require('./functions/SearchGoogle');
 require('dotenv').config();
 
 const app = express();
+const allowedOrigins = [
+  'http://localhost:3000',
+  'https://subsussp.github.io',   // Vite default
+];
 
-// Enable CORS for all origins (or whitelist specific ones)
 app.use(cors({
-  origin: 'http://localhost:3000' // you can also use '*' for all origins
+  origin: function (origin, callback) {
+    if (!origin) return callback(null, true);
+    if (allowedOrigins.includes(origin)) {
+      return callback(null, true);
+    } else {
+      return callback(new Error('Not allowed by CORS'));
+    }
+  }
 }));
 
 app.use(express.json());
