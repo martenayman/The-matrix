@@ -111,10 +111,9 @@ app.post('/api/prompt',async (req,res)=>{
   }),
 });
 const response = await resp.json();
-console.log(response)
   return res.json(response.choices[0].message)
   } catch (error) {
-    res.send(error)
+    return res.send(error)
   }
 
 })
