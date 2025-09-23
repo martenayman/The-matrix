@@ -11,15 +11,15 @@ You can **click on nodes** to expand and explore related ideas, creating a dynam
 
 ---
 
-## ✨ Features
-- 🕸️ Interactive **node-link graph** visualization  
-- 🔍 Click nodes to **explore related topics** dynamically  
-- 🎨 Smooth animations and modern design  
-- 🌍 Accessible directly via [Live Demo](https://subsussp.github.io/The-matrix/)  
+## <img src="https://em-content.zobj.net/thumbs/240/apple/354/sparkles_2728.png" width="20"/> Features
+- <img src="https://em-content.zobj.net/thumbs/240/apple/354/spider-web_1f578-fe0f.png" width="20"/> Interactive **node-link graph** visualization  
+- <img src="https://em-content.zobj.net/thumbs/240/apple/354/magnifying-glass-tilted-left_1f50d.png" width="20"/> Click nodes to **explore related topics** dynamically  
+- <img src="https://em-content.zobj.net/thumbs/240/apple/354/artist-palette_1f3a8.png" width="20"/> Smooth animations and modern design  
+- <img src="https://em-content.zobj.net/thumbs/240/apple/354/globe-showing-europe-africa_1f30d.png" width="20"/> Accessible directly via [Live Demo](https://subsussp.github.io/The-matrix/)  
 
 ---
 
-## 🛠️ Technologies Used  
+## <img src="https://em-content.zobj.net/thumbs/240/apple/354/hammer-and-wrench_1f6e0-fe0f.png" width="20"/> Technologies Used  
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="60" height="60"/>
